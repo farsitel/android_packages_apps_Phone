@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Launcher labels -->
+    <!-- Tab title -->
+    <string name="contactsIconLabel">آشنایان</string>
+    <!-- Tab title -->
+    <string name="contactsFavoritesLabel">موردعلاقه‌ها</string>
+    <!-- Tab title -->
+    <string name="dialerIconLabel">شماره‌گیر</string>
+    <!-- Screen title for Emergency Dialer UI -->
+    <string name="emergencyDialerIconLabel">شماره‌گیر اضطراری</string>
+    <!-- Application name on Home screen -->
+    <string name="phoneIconLabel">تلفن</string>
+    <!-- Tab title -->
+    <string name="recentCallsIconLabel">تماس‌ها</string>
+    <!-- Title of FDN list screen -->
+    <string name="fdnListLabel">فهرست FDN</string>
+
+    <!-- Call status -->
+    <!-- Incoming call screen, name of "unknown" caller -->
+    <string name="unknown">نامشخص</string>
+    <!-- Incoming call screen, string when number hidden -->
+    <string name="private_num">شمارهٔ خصوصی</string>
+    <!-- Incoming call screen, string when called from a pay phone -->
+    <string name="payphone">شمارهٔ هزینه‌دار</string>
+    <!-- In-call screen: status label for a call that's on hold -->
+    <string name="onHold">در حال مکث</string>
+    <!-- In-call screen: status label for the current active call -->
+    <string name="ongoing">تماس کنونی</string>
+    <!-- Possible error messages with outgoing calls -->
+    <!-- In-call screen: call failure reason (busy) -->
+    <string name="callFailed_userBusy">خط اشغال است</string>
+    <!-- In-call screen: call failure reason (network congestion) -->
+    <string name="callFailed_congestion">شبکه اشغال است</string>
+    <!-- In-call screen: call failure reason (no signal) -->
+    <string name="callFailed_noSignal">سیگنالی وجود ندارد</string>
+    <!-- In-call screen: call failure reason (GSM ACM limit exceeded) -->
+    <string name="callFailed_limitExceeded">حد ACM پر شده است</string>
+    <!-- In-call screen: call failure reason (radio is off) -->
+    <string name="callFailed_powerOff">آنتن وجود ندارد</string>
+    <!-- In-call screen: call failure reason (SIM error) -->
+    <string name="callFailed_simError">سیم‌کارت وجود ندارد، یا مشکلی در سیم‌کارت وجود دارد</string>
+    <!-- In-call screen: call failure reason (out of service) -->
+    <string name="callFailed_outOfService">منطقهٔ خارج از محدوده</string>
+    <!-- In-call screen: call failure reason (call denied because of current FDN setting) -->
+    <string name="callFailed_fdn_only">تماس‌های خروجی توسط FDN محصور هستند.</string>
+    <!-- In-call screen: call failure reason (call denied because call barring is on) -->
+    <string name="callFailed_cb_enabled">در هنگامی که تماس‌های استثنایی روشن هستند، نمی‌توانید تماس خروجی داشته باشید.</string>
+    <!-- In-call screen: call failure reason (call denied because domain specific access control is on) -->
+    <string name="callFailed_dsac_restricted">همهٔ تماس‌ها توسط کنترل دسترسی محصور هستند.</string>
+    <!-- In-call screen: call failure reason (Emergency call denied because domain specific access control is on)-->
+    <string name="callFailed_dsac_restricted_emergency">تماس‌های اضطراری توسط کنترل دسترسی محصور هستند.</string>
+    <!-- In-call screen: call failure reason (Normal call denied because domain specific access control is on)-->
+    <string name="callFailed_dsac_restricted_normal">تماس‌های معمول توسط کنترل دسترسی محصور هستند.</string>
+    <!-- In-call screen: call failure reason (Phone is locked until next power cycle)-->
+    <string name="callFailed_cdma_lockedUntilPowerCycle">CDMA: Phone locked until power cycle.</string>
+    <!-- In-call screen: call failure reason (CDMA: call dropped)-->
+    <string name="callFailed_cdma_drop">CDMA: Call dropped.</string>
+    <!-- In-call screen: call failure reason (CDMA: call intercepted)-->
+    <string name="callFailed_cdma_intercept">CDMA: Call intercepted.</string>
+    <!-- In-call screen: call failure reason (CDMA reorder)-->
+    <string name="callFailed_cdma_reorder">CDMA: reorder.</string>
+    <!-- In-call screen: call failure reason (CDMA: Service Option Reject)-->
+    <string name="callFailed_cdma_SO_reject">CDMA: Service Option Reject.</string>
+    <!-- In-call screen: call failure reason (CDMA: retry order)-->
+    <string name="callFailed_cdma_retryOrder">CDMA: retry order.</string>
+    <!-- In-call screen: call failure reason (CDMA: Access failure)-->
+    <string name="callFailed_cdma_accessFailure">CDMA: Access failure.</string>
+    <!-- In-call screen: call failure reason (CDMA: Preempted)-->
+    <string name="callFailed_cdma_preempted">CDMA: Preempted.</string>
+    <!-- In-call screen: call failure reason (Only Emergency calls are possible)-->
+    <string name="callFailed_cdma_notEmergency">فقط تماس‌های اضطراری ممکن است.</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="confCall">تماس کنفرانسی</string>
+    <!-- In-call screen: call lost dialog text -->
+    <string name="call_lost">تماس قطع شد.</string>
+    <!-- In-call screen: auto retry  -->
+    <string name="retry">تلاش مجدد</string>
+    <!-- In-call screen: call lost title of dialog -->
+    <string name="call_lost_title">تماس قطع شد</string>
+
+    <!-- MMI strings -->
+    <!-- Dialog label when an MMI code starts running -->
+    <string name="mmiStarted">کد MMI شروع شد</string>
+    <!-- Dialog label when a USSD code starts running -->
+    <string name="ussdRunning">کد USSD در حال اجراست\u2026</string>
+    <!-- Dialog label when an MMI code is canceled -->
+    <string name="mmiCancelled">کد MMI لغو شد</string>
+    <!-- Label for "cancel" button on the MMI dialog -->
+    <string name="cancel">لغو</string>
+
+    <!-- In-call menu item labels -->
+    <!-- Regular in-call menu items: -->
+    <!-- In-call menu: Label for "speakerphone" menu item -->
+    <string name="menu_speaker">بلندگو</string>
+    <!-- In-call menu: Label for "bluetooth" menu item -->
+    <string name="menu_bluetooth">بلوتوث</string>
+    <!-- In-call menu: Label for "mute" menu item -->
+    <string name="menu_mute">بی‌صدا</string>
+    <!-- In-call menu: Label for "hold" menu item -->
+    <string name="menu_hold">مکث</string>
+    <!-- In-call menu: Label for "end call" menu item -->
+    <string name="menu_endCall">پایان تماس</string>
+    <!-- In-call menu: Label for "swap calls" menu item -->
+    <string name="menu_swapCalls">جابجایی تماس‌ها</string>
+    <!-- In-call menu: Label for "merge calls" menu item -->
+    <string name="menu_mergeCalls">ادغام تماس‌ها</string>
+    <!-- In-call menu: Label for "add call" menu item -->
+    <string name="menu_addCall">افزودن تماس</string>
+    <!-- In-call menu: Label for "manage conference call" menu item -->
+    <string name="menu_manageConference">مدیریت تماس کنفرانسی</string>
+    <!-- In-call menu: Label for "show dialpad" menu item -->
+    <string name="menu_showDialpad">نمایش کلیدهای تماس</string>
+    <!-- In-call menu: Label for "hide dialpad" menu item -->
+    <string name="menu_hideDialpad">عدم نمایش کلیدهای تماس</string>
+    <!-- Incoming call menu items: -->
+    <!-- Incoming call menu: Label for "Hold and answer" menu item -->
+    <string name="menu_answerAndHold">تماس کنونی را مکث کن و جواب بده</string>
+    <!-- Incoming call menu: Label for "End and answer" menu item -->
+    <string name="menu_answerAndEnd">تماس کنونی را پایان بده و جواب بده</string>
+    <!-- Other misc labels for the in-call UI -->
+    <!-- Positive button label ("OK") used in several dialogs in the phone UI -->
+    <string name="ok">قبول</string>
+    <!-- In-call screen, message just under call window when keyboard is closed -->
+    <string name="menuButtonHint">برای گزینه‌های تماس، منو را بزنید.</string>
+    <!-- In-call screen, message just under call window when keyboard is revealed -->
+    <string name="menuButtonKeyboardDialHint">"برای گزینه‌های تماس، منو را بزنید \u2022  از صفحه‌کلید برای تماس استفاده کنید"</string>
+    <!-- Incoming call menu: Label for "Answer" menu item -->
+    <string name="menu_answer">جواب بده</string>
+    <!-- Incoming call menu: Label for "Ignore" menu item -->
+    <string name="menu_ignore">نایده بگیر</string>
+
+    <!-- post dial -->
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "wait" character in a phone number to be dialed; this dialog asks the
+         user if it's OK to send the numbers following the "wait". -->
+    <string name="wait_prompt_str">زنگ‌های زیرین ارسال شوند؟\n</string>
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "PAUSE" character in a phone number to be dialed; this dialog gives
+         informative message to the user to show the sending numbers following the "Pause". -->
+    <string name="pause_prompt_str">در حال ارسال زنگ\n</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog -->
+    <string name="send_button">ارسال</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_yes">بله</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_no">خیر</string>
+    <!-- In-call screen: on the "wild" character dialog, this is the label
+         for a text widget that lets the user enter the digits that should
+         replace the "wild" character. -->
+    <string name="wild_prompt_str">Replace the wild character with</string>
+
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">شمارهٔ صندوق صوتی نامشخص است</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">هیچ شماره‌ای برای صندوق صوتی بر روی سیم‌کارت ذخیره نشده است.</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">افزودن شماره</string>
+
+    <!-- Placeholder text displayed while loading a list of phone numbers
+         into the dialer UI -->
+    <string name="dialer_emptyListWorking">در حال بارگذاری\u2026</string>
+
+    <!-- SIM PIN strings -->
+    <!-- Instructional text on SIM PIN unlock panel -->
+    <string name="enterPin">برای بازکردن سیم‌کارت، پین‌کد را وارد کنید.</string>
+    <!-- Success message displayed on SIM PIN unlock panel -->
+    <string name="pinUnlocked">سیم‌کارت باز شد</string>
+    <!-- Label for PIN entry widget on SIM PIN unlock panel -->
+    <string name="enterNewPin">پین‌کد جدید سیم‌کارت</string>
+    <!-- Label for PIN entry widget on SIM PIN unlock panel -->
+    <string name="verifyNewPin">برای تایید دوباره پین‌کد جدید سیم‌کارت را بنویسید</string>
+    <!-- Error message displayed on SIM PIN unlock panel -->
+    <string name="verifyFailed">پین‌کدهایی که برای سیم‌کارت نوشته‌اید یکسان نیستند. لطفا دوباره امتحان کنید.</string>
+    <!-- Instructional text on SIM PIN unlock panel -->
+    <string name="enterPuk">برای بازکردن سیم‌کارت، کد PUK را وارد کنید</string>
+    <!-- Error message displayed on SIM PIN unlock panel -->
+    <string name="badPuk">کد PUK صحیح نیست!</string>
+    <!-- Button label on SIM PIN unlock panel -->
+    <string name="buttonTxtContinue">ادامه</string>
+    <!-- Status message displayed on SIM PIN unlock panel -->
+    <string name="puk_unlocked">سیم‌کارت شما باز شد. گوشی شما در حال باز شدن است\u2026</string>
+    <!-- network depersonalization -->
+    <!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
+    <string name="label_ndp">پین بازگشایی شبکهٔ سیم‌کارت</string>
+    <!-- Button label on SIM Network Depersonalization panel -->
+    <string name="sim_ndp_unlock_text">با کن</string>
+    <!-- Button label on SIM Network Depersonalization panel -->
+    <string name="sim_ndp_dismiss_text">نادیده بگیر</string>
+    <!-- Status message displayed on SIM Network Depersonalization panel -->
+    <string name="requesting_unlock">در حال درخواست بازگشایی شبکه\u2026</string>
+    <!-- Error message displayed on SIM Network Depersonalization panel -->
+    <string name="unlock_failed">درخواست بازگشایی شبکه ناموفق بود.</string>
+    <!-- Success message displayed on SIM Network Depersonalization panel -->
+    <string name="unlock_success">بازگشایی شبکه با موفقیت انجام شد.</string>
+
+    <!-- Title for the dialog used to display the user's IMEI number -->
+    <string name="imei">IMEI</string>
+
+    <!-- Title for the dialog used to display the user's MEID number on CDMA network -->
+    <string name="meid">MEID</string>
+
+    <!-- settings strings -->
+
+    <!-- GSM Call settings screen, setting option name -->
+    <string name="labelGSMMore">تنظیمات تماس GSM</string>
+    <!-- CDM Call settings screen, setting option name -->
+    <string name="labelCDMAMore">تنظیمات تماس CDMA</string>
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="apn_settings">نام‌های نقطهٔ دسترسی</string>
+    <!-- Label for the "Network settings" screen in the Settings UI -->
+    <string name="settings_label">تنظیمات شبکه</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="voicemail">صندوق صوتی</string>
+    <!-- Call forwarding dialog box, voicemail number prefix -->
+    <string name="voicemail_abbreviated">صندوق‌پستی:</string>
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="networks">اپراتورهای شبکه</string>
+    <!-- Call settings screen title -->
+    <string name="call_settings">تنظیمات تماس</string>
+    <!-- GSM Call settings screen, setting option name -->
+    <string name="additional_gsm_call_settings">تنظیمات اضافی</string>
+    <!-- GSM-only Call settings screen, setting option name-->
+    <string name="sum_gsm_call_settings">تنظیمات اضافی تماس‌های GSM</string>
+    <!-- CDMA Call settings screen, setting option name -->
+    <string name="additional_cdma_call_settings">تنظیمات اضافی تماس‌های CDMA</string>
+    <!-- CDMA-only Call settings screen, setting option name-->
+    <string name="sum_cdma_call_settings">تنظیمات اضافی تماس‌های CDMA</string>
+    <!-- Call setting screen, nework service setting name -->
+    <string name="labelNwService">تنظیمات خدمات شبکه</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="labelCallerId">نمایشگر شماره</string>
+    <!-- Additional call settings screen, setting summary text when Caller ID is hidden -->
+    <string name="sum_hide_caller_id">شمارهٔ شما در تماس‌های خروجی پنهان خواهد بود</string>
+    <!-- Additional call settings screen, setting summary text when Caller ID is shown -->
+    <string name="sum_show_caller_id">شمارهٔ شما در تماس‌های خروجی نمایش داده خواهد شد</string>
+    <!-- Additional call settings screen, setting summary text for default Caller ID value -->
+    <string name="sum_default_caller_id">از تنظیمات پیش‌فرض اپراتور برای نمایش شماره شما در تماس‌های خروجی استفاده شود</string>
+    <!-- Additional call settings screen, setting check box name -->
+    <string name="labelCW">انتظار تماس</string>
+    <!-- Additional call settings screen, setting summary text when call waiting check box is selected -->
+    <string name="sum_cw_enabled">در هنگام یک تماس، تماس‌های جدید را به من اطلاع بده</string>
+    <!-- Additional call settings screen, setting summary text when call waiting check box is clear -->
+    <string name="sum_cw_disabled">در هنگام یک تماس، تماس‌های جدید را به من اطلاع بده</string>
+    <!-- Call forwarding settings screen, section heading -->
+    <string name="call_forwarding_settings">تنظیمات جابجایی تماس</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="labelCF">جابجایی تماس</string>
+
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFU">همیشه جابجا شود</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFU">همیشه از این شماره استفاده شود</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding all calls -->
+    <string name="sum_cfu_enabled_indicator">همه تماس‌ها جابجا می‌شود</string>
+    <!-- Call forwarding settings screen, setting summary text the Always forward is set -->
+    <string name="sum_cfu_enabled">همهٔ تماس‌ها به {0} جابجا می‌شود</string>
+    <!-- Call forwarding settings screen, setting summary text when Always forward is disabled -->
+    <string name="sum_cfu_disabled">غیرفعال</string>
+    <string name="sum_cfu_enabled_no_number">Number is unavailable</string>
+
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFB">هنگام که اشغال بود، جابجا کن</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFB">شماره برای هنگامی که اشغال بود</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to specific number when busy -->
+    <string name="sum_cfb_enabled">در حال جابجایی به {0}</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding when busy is disabled -->
+    <string name="sum_cfb_disabled">غیر فعال شد</string>
+
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFNRy">هنگامی که جواب داده نشد، جابجا کن</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFNRy">شماره برای هنگامی که جواب داده نشد</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unanswered -->
+    <string name="sum_cfnry_enabled">در حال جابجایی به {0}</string>
+    <!-- Call forwarding settings screen, setting summary text when Forward when unanswered is disabled -->
+    <string name="sum_cfnry_disabled">غیرفعال شد</string>
+
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFNRc">هنگامی که خارج از دسترس است، جابجا کن</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFNRc">شماره برای هنگامی که خارج از دسترس است</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unreachable-->
+    <string name="sum_cfnrc_enabled">در حال جابجایی به {0}</string>
+    <!-- Call forwarding settings screen, setting summary text when Forward when unreachable is disabled -->
+    <string name="sum_cfnrc_disabled">غیرفعال شد</string>
+    <!-- Title of the progress dialog displayed while updating Call settings -->
+    <string name="updating_title">تنظیمات تماس</string>
+    <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
+    <string name="error_updating_title">خطای تنظیمات تماس</string>
+    <!-- Toast in Call settings dialog while settings are being read -->
+    <string name="reading_settings">در حال خواندن تنظیمات\u2026</string>
+    <!-- Toast in Call settings dialog while settings are being saved -->
+    <string name="updating_settings">در حال به‌روز رسانی تنظیمات\u2026</string>
+    <!-- Toast in Call settings dialog while settings are being reverted -->
+    <string name="reverting_settings">در حال بازگرداندن تنظیمات\u2026</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="response_error">جواب غیر منتظره از سوی شبکه.</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="exception_error">خطا در شبکه یا سیم‌کارت.</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="radio_off_error">لطفا قبل از مشاهدهٔ این تنظیمات، رادیو را روشن کنید.</string>
+    <!-- Button label used to dismiss the "Call settings error" dialog -->
+    <string name="close_dialog">قبول</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="enable">فعال</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="disable">غیرفعال</string>
+    <!-- Button label which indicates the user wants to update a stored
+         phone number; used in several settings-related dialogs -->
+    <string name="change_num">به‌روز رسانی</string>
+    <!-- Phone settings: Caller ID preference values -->
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>پیش‌فرض شبکه</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>شماره را پنهان کن</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>شماره را نمایش بده</item>
+    </string-array>
+
+
+    <!-- voicemail setting strings -->
+    <!-- Call settings screen, Label used in "Save voicemail number" dialog -->
+    <string name="vm_save_number">ذخیرهٔ شمارهٔ صندوق صوتی</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="vm_changed">شمارهٔ صندوق صوتی تغییر کرد.</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="vm_change_failed">تغییر شمارهٔ صندوق صوتی ناموفق بود.\nاگر این مشکل در ادامه باز هم پیش آمد، لطفا با اپراتور خود تماس بگیرید.</string>
+    <!-- Call settings screen, displayed when vm provider supplied forwarding number change fails-->
+    <string name="fw_change_failed">تغییر شمارهٔ جابجایی ناموفق بود.\nاگر این مشکل در ادامه باز هم پیش آمد، لطفا با اپراتور خود تماس بگیرید.</string>
+    <!-- Call settings screen, displayed when forwarding number read fails-->
+    <string name="fw_get_in_vm_failed">بازیابی و ذخیرهٔ تنظیمات شمارهٔ جابجایی موفق نبود.\nآیا می‌خواهید به هر حال اپراتور جدید را جایگزین کنید؟</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="no_change">تغییری ایجاد نشد.</string>
+    <!-- Call settings screen, "Voicemail" provider setting summary text when no provider is selected -->
+    <string name="sum_voicemail_choose_provider">خدمات صندوق پستی خود را انتخاب کنید</string>
+    <!-- Call settings screen, "Voicemail" screen, default option - My Carrier -->
+    <string name="voicemail_default">اپراتور شما</string>
+
+    <!-- networks setting strings -->
+    <!-- Mobile network settings screen title -->
+    <string name="mobile_networks">تنظیمات شبکهٔ موبایل</string>
+    <!-- Available networks screen title/heading -->
+    <string name="label_available">شبکه‌های موجود</string>
+    <!-- Mobile network settings screen, toast when searching for available networks -->
+    <string name="load_networks_progress">در حال جستجو\u2026</string>
+    <!-- Available networks screen, text when no networks are found -->
+    <string name="empty_networks_list">شبکه‌ای پیدا نشد.</string>
+    <!-- Available networks screen, setting option name -->
+    <string name="search_networks">جستجوی شبکه‌ها</string>
+    <!-- Available networks screen, toast when an error is encountered when searching for networks -->
+    <string name="network_query_error">در هنگام جستجوی شبکه‌های اشکالی رخ داد.</string>
+    <!-- Available networks screen, toast when registering on a specific network -->
+    <string name="register_on_network">در حال ثبت در <xliff:g id="network">%s</xliff:g>\u2026</string>
+    <!-- Available networks screen, toast when SIM card isn't allowed on a network -->
+    <string name="not_allowed">سیم‌کارت شما اجازهٔ اتصال به این شبکه را نمی‌دهد.</string>
+    <!-- Available networks screen, toast when registered on a specific network -->
+    <string name="registration_done">در شبکه ثبت شد.</string>
+    <!-- Mobile network settings screen setting option summary text -->
+    <string name="sum_carrier_select">یک اپراتور شبکه انتخاب کنید</string>
+    <!-- Available networks screen, setting summary text -->
+    <string name="sum_search_networks">جستجو برای همهٔ اپراتورهای شبکه</string>
+    <!-- Available networks screen, setting option name -->
+    <string name="select_automatically">انتخاب خودکار</string>
+    <!-- Available networks screen, setting summary text -->
+    <string name="sum_select_automatically">شبکهٔ ارجح را به صورت خودکار انتخاب کن</string>
+    <string name="register_automatically">ثبت خودکار...</string>
+    <string name="preferred_network_mode_title">حالت شبکه</string>
+    <string name="preferred_network_mode_summary">تغییر حالت عملیاتی شبکه</string>
+    <string name="preferred_network_mode_dialogtitle">حالت شبکهٔ ارجح</string>
+    <string-array name="preferred_network_mode_choices">
+        <item>جهانی</item>
+        <item>فقط EvDo</item>
+        <item>CDMA w/o EvDo</item>
+        <item>CDMA / EvDo خودکار</item>
+        <item>GSM / WCDMA خودکار</item>
+        <item>فقط WCDMA</item>
+        <item>فقط GSM</item>
+        <item>GSM / WCDMA ارجح</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>"7"</item>
+        <item>"6"</item>
+        <item>"5"</item>
+        <item>"4"</item>
+        <item>"3"</item>
+        <item>"2"</item>
+        <item>"1"</item>
+        <item>"0"</item>
+    </string-array>
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="roaming">رومینگ داده</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="roaming_enable">هنگام رومینگ به خدمات داده متصل می‌شود</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="roaming_disable">هنگام رومینگ به خدمات داده متصل می‌شود</string>
+    <!-- Mobile network settings UI: notification message shown when you
+         lose data connectivity because you're roaming and you have the
+         "data roaming" feature turned off. -->
+    <string name="roaming_reenable_message">اتصال داده شما بخاطر اینکه شما از محدوده شبکه خود خارج شدید و رومینگ داده شما خاموش است، قطع شد.</string>
+    <!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
+    <string name="roaming_warning">اجازه برای رومینگ داده شود؟ این کار می‌تواند موجب پرداخت هزینه‌ی زیادی برای شما شود!</string>
+    <string name="gsm_umts_options">گزینه‌های GSM/UMTS</string>
+    <string name="cdma_options">گزینه‌های CDMA</string>
+
+    <!-- Cell broadcast SMS strings -->
+    <string name="cdma_cell_broadcast_sms">Cell Broadcast SMS</string>
+
+    <string name="cell_broadcast_sms">Cell Broadcast SMS</string>
+
+    <string name="enable_disable_cell_bc_sms">Cell Broadcast SMS</string>
+    <string name="cell_bc_sms_enable">Cell Broadcast SMS enabled</string>
+    <string name="cell_bc_sms_disable">Cell Broadcast SMS disabled</string>
+
+    <string name="cb_sms_settings">Cell Broadcast SMS settings</string>
+
+    <string name="enable_disable_emergency_broadcast">Emergency Broadcast</string>
+    <string name="emergency_broadcast_enable">Emergency Broadcast enabled</string>
+    <string name="emergency_broadcast_disable">Emergency Broadcast disabled</string>
+
+    <string name="enable_disable_administrative">Administrative</string>
+    <string name="administrative_enable">Administrative enabled</string>
+    <string name="administrative_disable">Administrative disabled</string>
+
+    <string name="enable_disable_maintenance">Maintenance</string>
+    <string name="maintenance_enable">Maintenance enabled</string>
+    <string name="maintenance_disable">Maintenance disabled</string>
+
+    <string name="general_news_settings">General News</string>
+    <string name="bf_news_settings">Business and Financial News</string>
+    <string name="sports_news_settings">Sports News</string>
+    <string name="entertainment_news_settings">Entertainment News</string>
+
+    <string name="enable_disable_local">Local</string>
+    <string name="local_enable">Local news enabled</string>
+    <string name="local_disable">Local news disabled</string>
+
+    <string name="enable_disable_regional">Regional</string>
+    <string name="regional_enable">Regional news enabled</string>
+    <string name="regional_disable">Regional news disabled</string>
+
+    <string name="enable_disable_national">National</string>
+    <string name="national_enable">National news enabled</string>
+    <string name="national_disable">National news disabled</string>
+
+    <string name="enable_disable_international">International</string>
+    <string name="international_enable">International news enabled</string>
+    <string name="international_disable">International news disabled</string>
+
+    <string name="list_language_title">Language</string>
+    <string name="list_language_summary">Select the news language</string>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese</item>
+        <item>Hebrew</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">Languages</string>
+
+    <string name="enable_disable_local_weather">Local Weather</string>
+    <string name="local_weather_enable">Local Weather enabled</string>
+    <string name="local_weather_disable">Local Weather disabled</string>
+
+    <string name="enable_disable_atr">Area Traffic Reports</string>
+    <string name="atr_enable">Area Traffic Reports enabled</string>
+    <string name="atr_disable">Area Traffic Reports disabled</string>
+
+    <string name="enable_disable_lafs">Local Airport Flight Schedules</string>
+    <string name="lafs_enable">Local Airport Flight Schedules enabled</string>
+    <string name="lafs_disable">Local Airport Flight Schedules disabled</string>
+
+    <string name="enable_disable_restaurants">Restaurants</string>
+    <string name="restaurants_enable">Restaurants enabled</string>
+    <string name="restaurants_disable">Restaurants disabled</string>
+
+    <string name="enable_disable_lodgings">Lodgings</string>
+    <string name="lodgings_enable">Lodgings enabled</string>
+    <string name="lodgings_disable">Lodgings disabled</string>
+
+    <string name="enable_disable_retail_directory">Retail Directory</string>
+    <string name="retail_directory_enable">Retail Directory enabled</string>
+    <string name="retail_directory_disable">Retail Directory disabled</string>
+
+    <string name="enable_disable_advertisements">Advertisements</string>
+    <string name="advertisements_enable">Advertisements enabled</string>
+    <string name="advertisements_disable">Advertisements disabled</string>
+
+    <string name="enable_disable_stock_quotes">Stock Quotes</string>
+    <string name="stock_quotes_enable">Stock Quotes enabled</string>
+    <string name="stock_quotes_disable">Stock Quotes disabled</string>
+
+    <string name="enable_disable_eo">Employment Opportunities</string>
+    <string name="eo_enable">Employment Opportunities enabled</string>
+    <string name="eo_disable">Employment Opportunities disabled</string>
+
+    <string name="enable_disable_mhh">Medical, Health and Hospital</string>
+    <string name="mhh_enable">Medical, Health and Hospital enabled</string>
+    <string name="mhh_disable">Medical, Health and Hospital disabled</string>
+
+    <string name="enable_disable_technology_news">Technology News</string>
+    <string name="technology_news_enable">Technology News enabled</string>
+    <string name="technology_news_disable">Technology News disabled</string>
+
+    <string name="enable_disable_multi_category">Multi-category</string>
+    <string name="multi_category_enable">Multi-category enabled</string>
+    <string name="multi_category_disable">Multi-category disabled</string>
+
+    <!-- GSM/UMTS Options strings -->
+    <string name="gsm_umts_network_preferences_title">GSM/UMTS Network Preferences</string>
+    <string name="gsm_umts_network_preferneces_summary">Not implemented yet! </string>
+    <string name="gsm_umts_network_preferences_dialogtitle">GSM/UMTS network preferences</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (auto mode)</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>GSM/WCDA (WCDMA preferred)</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="prefer_2g">فقط از شبکه‌های نسل ۲ استفاده کن</string>
+    <!-- Mobile network settings screen, setting summary text -->
+    <string name="prefer_2g_summary">باتری کمتری مصرف می‌کند</string>
+
+    <!-- CDMA System select strings -->
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="cdma_system_select_title">System select</string>
+    <!-- Mobile network settings screen, setting summary text -->
+    <string name="cdma_system_select_summary">Change the cdma roaming mode</string>
+    <!-- System select settings screen title -->
+    <string name="cdma_system_select_dialogtitle">System select</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>Home only</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>Automatic</item>
+    </string-array>
+
+    <!-- CDMA Options strings -->
+    <string name="cdma_roaming_mode_title">CDMA Roaming Mode</string>
+    <string name="cdma_roaming_mode_summary">Change the cdma roaming mode</string>
+    <string name="cdma_roaming_mode_dialogtitle">CDMA roaming mode</string>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Home Networks only</item>
+        <item>Affiliated Networks</item>
+        <item>Any Network</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_network_preferences_title">CDMA Network Preferences</string>
+    <string name="cdma_network_preferneces_summary">Not implemented yet! </string>
+    <string name="cdma_network_preferences_dialogtitle">CDMA network preferences</string>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>CDMA only</item>
+        <item>EvDo only</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="subscription_title">CDMA Subscription TEST</string>
+    <string name="subscription_summary">Change between RUIM/SIM and NV</string>
+    <string name="subscription_dialogtitle">subscription</string>
+    <string-array name="subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <!-- FDN settings strings -->
+    <!-- Call settings screen, setting option name -->
+    <string name="fdn">شماره‌های تماسی ثابت</string>
+    <!-- Call settings screen, button label that takes you to
+         the Fixed Dialing Number management screen -->
+    <string name="manage_fdn_list">فهرست شماره‌های ثابت</string>
+    <!-- Call settings screen, preference item label -->
+    <string name="fdn_activation">فعال‌سازی شماره‌های ثابت</string>
+    <!-- Call settings setting option name when FDN is enabled -->
+    <string name="fdn_enabled">شماره‌های تماسی ثابت فعال شد</string>
+    <!-- Call settings setting option name  when FDN is disabled-->
+    <string name="fdn_disabled">شماره‌های تماسی ثابت غیرفعال شد</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="enable_fdn">فعال‌کردن شماره‌های ثابت</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="disable_fdn">غیرفعال‌کردن شماره‌های ثابت</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="change_pin2">تغییر PIN2</string>
+    <!-- Call settings screen, setting option name when FDN is enabled -->
+    <string name="enable_fdn_ok">غیرفعال‌کردن FDN</string>
+    <!-- Call settings screen, setting option name when FDN is disabled -->
+    <string name="disable_fdn_ok">فعال‌کردن FDN</string>
+    <!-- Call settings screen, setting summary text -->
+    <string name="sum_fdn">مدیریت شماره‌های تماسی ثابت</string>
+    <!-- Call settings, FDN screen, setting option name -->
+    <string name="sum_fdn_change_pin">تغییر PIN برای دسترسی به شماره‌های ثابت</string>
+    <!-- Call settings, FDN screen, setting option name -->
+    <string name="sum_fdn_manage_list">مدیریت فهرست شماره تلفن</string>
+    <string name="voice_privacy">حریم خصوصی صدا</string>
+    <string name="voice_privacy_summary">فعال‌سازی حریم خصوصی پیشرفته</string>
+    <string name="tty_mode_title">حالت TTY</string>
+    <string name="tty_mode_summary">فعال‌کردن حالت TTY</string>
+    <string name="tty_mode_option_title">TTY mode</string>
+    <string name="tty_mode_option_summary">تنظیم حالت TTY</string>
+    <string name="auto_retry_mode_title">تلاش مجدد خودکار</string>
+    <string name="auto_retry_mode_summary">فعال‌کردن حالت تلاش مجدد خودکار</string>
+
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_add">افزودن آشنا</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_edit">ویرایش آشنا</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_delete">حذف آشنا</string>
+
+    <!-- FDN related strings -->
+    <!-- Label for PIN2 entry screen -->
+    <string name="get_pin2">PIN2 را وارد کنید</string>
+    <!-- "Edit FDN Contact" screen: Label for the "name" text field -->
+    <string name="name">نام</string>
+    <!-- "Edit FDN Contact" screen: Label for the "number" text field -->
+    <string name="number">شماره</string>
+    <!-- "Edit FDN Contact" screen: Button label for "save" action -->
+    <string name="save">ذخیره</string>
+    <!-- Title of "Edit FDN Contact" screen for a new contact -->
+    <string name="add_fdn_contact">افزودن آشنای شماره‌های ثابت</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="adding_fdn_contact">در حال افزودن آشنای شماره‌های ثابت\u2026</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_added">آشنای شماره‌های ثابت اضافه شد.</string>
+    <!-- Title of "Edit FDN Contact" screen when editing an already-existing contact -->
+    <string name="edit_fdn_contact">ویرایش آشنای شماره‌های ثابت</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="updating_fdn_contact">در حال به‌روز رسانی آشنای شماره‌های ثابت\u2026</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_updated">آشنای شماره‌های ثابت به‌روز شد.</string>
+    <!-- Title of "Delete FDN Contact" screen -->
+    <string name="delete_fdn_contact">حذف آشنای شماره‌های ثابت</string>
+    <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="deleting_fdn_contact">در حال حذف آشنای شماره‌های ثابت\u2026</string>
+    <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_deleted">آشنای شماره‌های ثابت حذف شد.</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="pin2_invalid">PIN2 نامعتبر است!</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_invalid_number">شماره نمی‌تواند بیش از ۲۰ رقم باشد.</string>
+
+    <!-- ADN related strings -->
+    <!-- Placeholder text displayed while loading the list of SIM contacts -->
+    <string name="simContacts_emptyLoading">در حال خواندن از سیم‌کارت\u2026</string>
+    <!-- Call settings, string that appears on FDN contact list when there are no contacts on the SIM. -->
+    <string name="simContacts_empty">هیچ آشنایی روی سیم‌کارت وجود ندارد.</string>
+    <!-- Call settings: title of the dialog that lets you select contacts from the SIM. -->
+    <string name="simContacts_title">برای وارد کردن، آشنایان را انتخاب کنید</string>
+
+    <!-- SIM PIN strings -->
+    <!-- Title of "Enable/disable SIM PIN" screen -->
+    <string name="enable_pin">فعال‌کردن/غیرفعال‌کردن PIN سیم‌کارت</string>
+    <!-- Title of "Change SIM PIN" screen -->
+    <string name="change_pin">تغییر PIN سیم‌کارت</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="enter_pin_text">PIN سیم‌کارت:</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="oldPinLabel">PIN قدیمی</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="newPinLabel">PIN جدیدی</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="confirmPinLabel">تأیید PIN جدید</string>
+    <!-- SIM PIN screen: error message -->
+    <string name="badPin">PIN قبلی که تایپ کردید، اشتباه است. لطفا دوباره سعی کنید.</string>
+    <!-- SIM PIN screen: error message -->
+    <string name="mismatchPin">PINهایی که وارد کرده‌ای مطابقت ندارند. لطفا دوباره امتحان کنید.</string>
+    <!-- SIM PIN screen: error message when PIN is too short or too long -->
+    <string name="invalidPin">PINی وارد کنید که بین ۴ تا ۸ رقم باشد.</string>
+    <!-- Title of "Disable SIM PIN" screen -->
+    <string name="disable_sim_pin">غیرفعال‌کردن PIN سیم‌کارت</string>
+    <!-- Title of "Enable SIM PIN" screen -->
+    <string name="enable_sim_pin">فعال‌کردن PIN سیم‌کارت</string>
+    <!-- SIM PIN screen: progress message displayed while enabling -->
+    <string name="enable_in_progress">لطفا صبر کنید\u2026</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="enable_pin_ok">PIN سیم‌کارت فعال شد</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="disable_pin_ok">PIN سیم‌کارت غیرفعال شد</string>
+    <!-- SIM PIN screen: error message displayed in a popup (toast) -->
+    <string name="pin_failed">PINای که وارد کرده‌اید نادرست است</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="pin_changed">PIN سیم‌کارت با موفقیت تغییر کرد</string>
+    <!-- SIM PIN screen: error message displayed in a dialog -->
+    <string name="puk_requested">گذرواژه اشتباه است، سیم‌کارت قفل شد! PUK2 نیاز است.</string>
+
+    <!-- SIM PIN2 strings -->
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="enter_pin2_text">PIN2</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="oldPin2Label">PIN2 قدیمی</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="newPin2Label">PIN2 جدید</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="confirmPin2Label">تأیید PIN2 جدید</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="badPuk2">PUK2ای که وارد کرده‌اید نادرست است. لطفا دوباره امتحان کنید. </string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="badPin2">PIN2 قدیمی‌ که وارد کردید، نادرست است. لطفا دوباره امتحان کنید.</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="mismatchPin2">PIN2هایی که وارد کرده‌اید مطابقت ندارند. لطفا دوباره امتحان کنید.</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="invalidPin2">PIN2ای با ۴ تا ۸ رقم عدد وارد کنید.</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="invalidPuk2">PUK2ای ۸ رقمی وارد کنید.</string>
+    <!-- SIM PIN2 screen: status message displayed in a popup (toast) -->
+    <string name="pin2_changed">PIN2 با موفقیت تغییر کرد</string>
+    <!-- SIM PIN2 screen: label for PUK2 entry widget -->
+    <string name="label_puk2_code">کد PUK2 را تایپ کنید</string>
+    <!-- SIM PIN2 screen: error message displayed in a dialog -->
+    <string name="fdn_enable_puk2_requested">گذرواژه نادرست است، لطفا PIN2 را تغییر دهید و دوباره امتحان کنید!</string>
+    <!-- SIM PIN2 screen: error message displayed in a dialog -->
+    <string name="puk2_requested">گذرواژه نادرست است، سیم‌کارت قفل شد! PUK2 نیاز است.</string>
+
+    <!-- SIM PIN screen: button label -->
+    <string name="doneButton">اتمام</string>
+
+    <!-- In-call screen: status label for a conference call -->
+    <string name="caller_manage_header">تماس کنفرانسی <xliff:g id="conf_call_time">%s</xliff:g></string>
+    <!-- In-call screen: Button label on "Manage conference" panel -->
+    <string name="caller_manage_manage_done_text">بازگشت به تماس</string>
+
+    <!-- Button label on "SIM Missing" screen -->
+    <string name="sim_missing_continueView_text">ادامه بدون سیم‌کارت</string>
+    <!-- Message displayed on "SIM Missing" screen -->
+    <string name="sim_missing_msg_text">هیچ سیم‌کارتی پیدا نشد. لطفا یک سیم‌کارت درون گوشی قرار دهید.</string>
+
+    <!-- Button label on "SIM Unlock" screen -->
+    <string name="sim_unlock_dismiss_text">لغو</string>
+    <!-- Button label on "SIM Unlock" screen -->
+    <string name="sim_unlock_unlock_text">باز کن</string>
+    <!-- Progress message displayed on "SIM Unlock" screen -->
+    <string name="sim_unlock_status_text">در حال تأیید هویت PIN\u2026</string>
+
+    <!-- Call settings screen, Set voicemail dialog title -->
+    <string name="voicemail_settings_number_label">شمارهٔ صندوق صوتی</string>
+
+    <!-- Card titles -->
+    <!-- In-call screen: status label for a call in the "dialing" state -->
+    <string name="card_title_dialing">در حال شماره‌گیری</string>
+    <!-- In-call screen: status label for a re-dialing call -->
+    <string name="card_title_redialing">در حال تلاش مجدد</string>
+    <!-- In-call screen: status label for a call in progress -->
+    <string name="card_title_in_progress">تماس کنونی</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="card_title_conf_call">تماس کنفرانسی</string>
+    <!-- In-call screen: status label for an incoming call -->
+    <string name="card_title_incoming_call">تماس ورودی</string>
+    <!-- In-call screen: status label for an cdma call waiting -->
+    <string name="card_title_cdma_call_waiting">Cdma callwaiting </string>
+    <!-- In-call screen: status label displayed briefly after a call ends -->
+    <string name="card_title_call_ended">تماس قطع شد</string>
+    <!-- In-call screen: status label for call that's on hold -->
+    <string name="card_title_on_hold">در حال مکث</string>
+    <!-- In-call screen: status label for a call that's in the process of hanging up -->
+    <string name="card_title_hanging_up">در حال قطع‌کردن</string>
+    <!-- In-call screen: status label for a call that's in CDMA flash mode -->
+    <string name="card_title_in_call">In call</string>
+
+    <!-- Notification strings -->
+    <!-- Missed call notification label, used when there's exactly one missed call -->
+    <string name="notification_missedCallTitle">تماس از دست‌رفته</string>
+    <!-- Missed call notification label, used when there are two or more missed calls -->
+    <string name="notification_missedCallsTitle">تماس‌های از دست‌رفته</string>
+    <!-- Missed call notification message used when there are multiple missed calls -->
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> تماس از دست‌رفته</string>
+    <!-- Missed call notification message used for a single missed call, including
+         the caller-id info from the missed call -->
+    <string name="notification_missedCallTicker">تماس از دست‌رفته از <xliff:g id="missed_call_from">%s</xliff:g></string>
+    <!-- The "label" of the in-call Notification for an ongoing call, used
+         as the format string for a Chronometer widget. -->
+    <string name="notification_ongoing_call_format">تماس جایری (<xliff:g id="duration">%s</xliff:g>)</string>
+    <!-- The "label" of the in-call Notification for a call that's on hold -->
+    <string name="notification_on_hold">در حال مکث</string>
+    <!-- Label for the "Voicemail" notification item, when expanded. -->
+    <string name="notification_voicemail_title">پست صوتی جدید</string>
+    <!-- Label for the expanded "Voicemail" notification item,
+         including a count of messages. -->
+    <string name="notification_voicemail_title_count">پست صوتی جدید (<xliff:g id="count">%d</xliff:g>)</string>
+    <!-- Message displayed in the "Voicemail" notification item, allowing the user
+         to dial the indicated number. -->
+    <string name="notification_voicemail_text_format">تماس با<xliff:g id="voicemail_number">%s</xliff:g></string>
+    <!-- Message displayed in the "Voicemail" notification item,
+         indicating that there's no voicemail number available -->
+    <string name="notification_voicemail_no_vm_number">شمارهٔ صندوق صوتی نامشخص است</string>
+    <!-- Label for the "No service" notification item, when expanded. -->
+    <string name="notification_network_selection_title">بدون سرویس</string>
+    <!-- Label for the expanded "No service" notification item, including the
+         operator name set by user -->
+    <string name="notification_network_selection_text">شبکهٔ انتخاب‌شده (<xliff:g id="operator_name">%s</xliff:g>) خارج از دسترس</string>
+
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_power_off">برای گرفتن تماس، ابتدا گوشی را از حالت هواپیما خارج کنید.</string>
+    <!-- In-call screen: Error message displayed in a  dialog when trying to dial without a SIM card. -->
+    <string name="incall_error_emergency_only">در شبکه ثبت نشده است.</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_no_phone_number_supplied">تماس برقرار نشد، شماره نامعتبر است.</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_call_failed">تماس برقرار نشد.</string>
+    <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
+    <string name="incall_status_dialed_mmi">در حال شروع ترتیب MMI\u2026</string>
+    <!-- In-call screen: status message displayed in a dialog when starting a feature code -->
+    <string name="incall_status_dialed_fc">در حال شروع ترتیب امکان\u2026</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_unknown">سرویس پشتیبانی نشده.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_switch">نمی‌توان بین تماس‌ها سوییچ کرد.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_separate">نمی‌توان تماس‌ها را جدا کرد.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_transfer">نمی‌توان تماس را جابجا کرد.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_conference">نمی‌توان تماس‌ها را کنفرانس کرد.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_reject">نمی‌توان تماس را رد کرد.</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_hangup">نمی‌توان تماس(ها) را قطع کرد.</string>
+
+    <!-- Dialog title for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_title">تماس اضطراری</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_message">در حال روشن کردن آنتن\u2026</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_retry">خارج از محدودهٔ سرویس، در حال تلاش مجدد\u2026</string>
+
+    <!-- Dialer text on Emergency Dialer -->
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_error">تماس برقرار نشد، <xliff:g id="non_emergency_number">%s</xliff:g> یک شمارهٔ اضطراری نیست!</string>
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_empty_error">تماس برقرار نشد، لطا یک شمارهٔ اضطراری وارد کنید!</string>
+
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">برای تماس از صفحه‌کلید استفاده کنید</string>
+
+    <!-- Hint text displayed in the "digits" field at the top of the
+         in-call DTMF dialpad.  (This hint reminds the user that the
+         dialpad is there to generate tones, not to add a new call.) -->
+    <string name="dtmfDialpadHintText">شماره‌گیر لمسی صدایی</string>
+
+    <!-- Text displayed in the "sliding drawer handle" that you use to
+         open the in-call DTMF dialpad. -->
+    <string name="dtmfDialpadHandleLabel">شماره‌گیر</string>
+
+    <!-- Text displayed on the in-call screen's "touch lock" overlay,
+         instructing the user that they need to double-tap to unlock the
+         screen. -->
+    <string name="touchLockText">برای باز شدن دوبار لمس کنید</string>
+
+    <!-- Text for the onscreen "Answer" button, instructing the user that
+         they need to double-tap to answer the incoming call. -->
+    <string name="onscreenAnswerText">برای جواب دادن دوبار لمس کنید</string>
+    <!-- Text for the onscreen "Decline" button -->
+    <string name="onscreenRejectText">برای رد کردن دوبار لمس کنید</string>
+    <!-- Text for the onscreen "Hold" button -->
+    <string name="onscreenHoldText">مکث</string>
+    <!-- Text for the onscreen "Hold" button in the "Unhold" state -->
+    <string name="onscreenUnholdText">ادامه</string>
+    <!-- Text for the onscreen "End call" button -->
+    <string name="onscreenEndCallText">پایان</string>
+    <!-- Text for the onscreen "Show Dialpad" button -->
+    <string name="onscreenShowDialpadText">شماره‌گیر</string>
+    <!-- Text for the onscreen "Hide Dialpad" button -->
+    <string name="onscreenHideDialpadText">پنهان</string>
+    <!-- Text for the onscreen "Speaker" button -->
+    <string name="onscreenSpeakerText">بلندگو</string>
+    <!-- Text for the onscreen "Mute" button -->
+    <string name="onscreenMuteText">بی‌صدا</string>
+    <!-- Text for the onscreen "Bluetooth" button -->
+    <string name="onscreenBluetoothText">بلوتوث</string>
+    <!-- Text for the onscreen "Add call" button -->
+    <string name="onscreenAddCallText">افزودن تماس</string>
+    <!-- Text for the onscreen "Merge calls" button -->
+    <string name="onscreenMergeCallsText">ادغام تماس‌ها</string>
+    <!-- Text for the onscreen "Swap calls" button -->
+    <string name="onscreenSwapCallsText">مبادله</string>
+    <!-- Text for the onscreen "Manage calls" button -->
+    <string name="onscreenManageCallsText">مدیریت تماس‌ها</string>
+    <!-- Text for the onscreen "Manage conference" button -->
+    <string name="onscreenManageConferenceText">مدیریت</string>
+
+    <!-- Menu item label in SIM Contacts: Import a single contact entry from the SIM card -->
+    <string name="importSimEntry">ورود</string>
+    <!-- Menu item label in SIM Contacts: Import all contact entries from the SIM card -->
+    <string name="importAllSimEntries">ورود همه</string>
+    <!-- SIM Contacts: status message displayed while importing card -->
+    <string name="importingSimContacts">در حال ورود آشنایان سیم‌کارت</string>
+    <!-- Import a single contact entry from contacts to the SIM card -->
+    <string name="importToFDNfromContacts">ورود از آشنایان</string>
+
+    <!-- Hearing aid settings -->
+    <string name="hac_mode_title">Hearing aids</string>
+    <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
+
+    <!-- Service option entries.  -->
+    <string-array name="tty_mode_entries">
+        <item>TTY خاموش</item>
+        <item>TTY کامل</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+
+    <!-- Label for ERI text widget, shown in list of all gadgets -->
+    <string name="eri_text_label">متن ERI</string>
+
+    <!-- Dtmf tones settings -->
+    <!-- Title for the DTMF Tones options displayed in Call Settings -->
+    <string name="dtmf_tones_title">DTMF Tones</string>
+    <!-- Summary for the DTMF Tones options displayed in Call Settings -->
+    <string name="dtmf_tones_summary">Set the length of DTMF tones</string>
+    <!-- Options displayed as part of DTMF Tones in Call Settings -->
+    <string-array name="dtmf_tone_entries">
+      <item>Normal</item>
+      <item>Long</item>
+    </string-array>
+
+    <!-- Title for the dialog used to display CDMA DisplayInfo -->
+    <string name="network_message">Network Message</string>
+
+    <!-- OTA-specific strings -->
+    <!-- Title shown on OTA screen -->
+    <string name="ota_title_activate">Activate your phone</string>
+    <!-- Message displayed on the OTA activation screen -->
+    <string name="ota_touch_activate">A special call needs to be made to activate your phone service.
+    \n\nAfter pressing \u201CActivate\u201D, listen to the instructions provided to activate your phone.</string>
+    <!-- Button label within the OTA activation screen -->
+    <string name="ota_activate">Activate</string>
+    <!-- Title text shown when phone activation is successful -->
+    <string name="ota_title_activate_success">Phone is activated!</string>
+    <!-- Title text shown on screen where activation fails -->
+    <string name="ota_title_problem_with_activation">Problem with activation</string>
+    <!-- Message displayed on the OTA listen screen. This message should be short to ensure the dialer fits. -->
+    <string name="ota_listen">Listen to the instructions to activate your phone. Stay on the line until you hear confirmation that your phone is activated.</string>
+    <!-- Button label within the OTA listen screen -->
+    <string name="ota_dialpad">Keypad</string>
+    <!-- Button label within the OTA listen screen -->
+    <string name="ota_speaker">Speaker</string>
+    <!-- String to be displayed on OTA listen screen once user has selected the
+         correct option to begin provisioning -->
+    <string name="ota_progress">Please wait while your phone is being programmed.</string>
+    <!-- String to display within the OTA Fail Notice dialog -->
+    <string name="ota_failure">Programming Unsuccessful</string>
+    <!-- String to be displayed on the OTA Fail/Success screen upon successful provisioning -->
+    <string name="ota_successful">Your phone is now activated.  It may take up to 15 minutes for service to start.</string>
+    <!-- String to be displayed on the OTA Fail/Success screen upon unsuccessful provisioning -->
+    <string name="ota_unsuccessful">Your phone did not activate.
+    \nYou may need to find an area with better coverage (near a window, or outside).
+    \n\nTry again or call customer service for more options.</string>
+    <!-- String to display within the OTA SPC Fail Notice dialog -->
+    <string name="ota_spc_failure">EXCESS SPC FAILURES</string>
+    <!-- Button label in OTA listen screen that cancels activation and goes to the previous screen -->
+    <string name="ota_call_end">بازگشت</string>
+    <!-- Button label shown on OTA error screen to allow the user to try again -->
+    <string name="ota_try_again">تلاش مجدد</string>
+    <!-- Button label shown on OTA screens that have a next screen -->
+    <string name="ota_next">بعدی</string>
+    <!-- Button label shown on OTA screens to go back to the previous screen -->
+    <string name="ota_back">قبلی</string>
+
+    <!-- Emergency Callback Mode (ECM) -->
+    <string name="ecm_exit_dialog">EcmExitDialog</string>
+    <!-- ECM: Status bar notification message -->
+    <string name="phone_entered_ecm_text">به حالت تماس اضطراری وارد شدید</string>
+    <!-- ECM: Notification title -->
+    <string name="phone_in_ecm_notification_title">حالت تماس اضطراری</string>
+    <!-- ECM: Notification body -->
+    <string name="phone_in_ecm_call_notification_text">اتصال داده غیرفعال شد</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">هیچ اتصال داده‌ای به مدت <xliff:g id="count">%s</xliff:g> دقیقه موجود نیست</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">هیچ اتصال داده‌ای به مدت <xliff:g id="count">%s</xliff:g> دقیقه موجود نیست</item>
+    </plurals>
+    <!-- ECM: Dialog box message for exiting from the notifications screen -->
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">گوشی به مدت <xliff:g id="count">%s</xliff:g> دقیقه در حالت تماس اضطراری است. که در این حالت هیچ برنامه‌ای که نیازمند اینترنت از طریق سیم‌کارت است، نمی‌تواند فعالیت کند. آیا می‌خواهید همین حالا خارج شوید؟</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">گوشی به مدت <xliff:g id="count">%s</xliff:g> دقیقه در حالت تماس اضطراری است. که در این حالت هیچ برنامه‌ای که نیازمند اینترنت از طریق سیم‌کارت است، نمی‌تواند فعالیت کند. آیا می‌خواهید همین حالا خارج شوید؟</item>
+    </plurals>
+    <!-- ECM: Dialog box message for exiting from any other app -->
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">عمل موردنظر در حالت تماس اضطراری امکان‌پذیر نیست. گوشی به مدت <xliff:g id="count">%s</xliff:g> دقیقه در این حالت خواهد بود. آیا می‌خواهید همین الان از این حالت خارج شوید؟</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">عمل موردنظر در حالت تماس اضطراری امکان‌پذیر نیست. گوشی به مدت <xliff:g id="count">%s</xliff:g> دقیقه در این حالت خواهد بود. آیا می‌خواهید همین الان از این حالت خارج شوید؟</item>
+    </plurals>
+    <!-- ECM: Dialog box message while in emergency call -->
+    <string name="alert_dialog_in_ecm_call">عمل موردنظر هنگامی که در حالت تماس اضطرای هستید، امکان‌پذیر نیست</string>
+    <!-- ECM: Progress text -->
+    <string name="progress_dialog_exiting_ecm">در حال خروج از حالت تماس اضطراری</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_yes">بله</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_no">خیر</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_dismiss">لغو</string>
+    <!-- Voicemail dialog title -->
+    <string name="voicemail_settings">تنظیمات صندوق صوتی</string>
+    <!-- String to display in voicemail number summary when no voicemail num is set -->
+    <string name="voicemail_number_not_set">&lt;تنظیم نشد&gt;</string>
+
+    <!-- Voicemail service pref title -->
+    <string name="voicemail_provider">سرویس صندوق صوتی</string>
+
+    <!-- Prefix on the voicemail settings preference. The full string will be Settings for <provider name> -->
+    <string name="voicemail_settings_for">تنظیمات برای <xliff:g id="provider_name">%s</xliff:g></string>
+
+    <!-- Title displayed above settings coming after voicemail in the call features screen -->
+    <string name="other_settings">تنظیمات دیگر تماس</string>
+
+    <!-- Label for onscreen "Dial" button used in the EmergencyDialer -->
+    <string name="dial_button_label">تماس</string>
+
+    <!-- Title displayed in the overlay when a call is placed using a 3rd party provider.
+         ^1 is the localized name of the provider obtained from the package manager.
+         ^2 is a phone number.
+         E.g: "Calling via Google Voice\n 1-800-666-1234"
+    -->
+    <string name="calling_via_template">Calling via ^1\n<b>^2</b></string>
+
+    <!-- Onscreen hints used for various states of the RotarySelector
+         widget used for incoming calls. -->
+    <eat-comment />
+    <!-- Incoming call hint: drag the tab right to answer -->
+    <string name="slide_to_answer">برای جواب دادن به راست بکشید</string>
+    <!-- Incoming call hint: drag the tab left to silence ringer -->
+    <string name="slide_to_silence">برای ساکت‌کردن زنگ به چپ بکشید</string>
+    <!-- Incoming call hint: drag the tab left to decline the incoming call -->
+    <string name="slide_to_decline">برای رد کردن به چپ بکشید</string>
+    <!-- Incoming call hint: drag the tab right to answer and hold the active call -->
+    <string name="slide_to_answer_and_hold">برای جواب دادن و مکث تماس کنونی\nبه راست بکشید</string>
+    <!-- Incoming call hint: drag the tab right to answer and end the active call -->
+    <string name="slide_to_answer_and_end_active">برای جواب دادن و اتمام تماس کنونی\nبه راست بکشید</string>
+    <!-- Incoming call hint: drag the tab right to answer and end the call on hold -->
+    <string name="slide_to_answer_and_end_onhold">برای جواب دادن و اتمام تماس مکثی\nبه راست بکشید</string>
+
+    <!-- Incoming call hint shown on tab (must be kept very short): answer incoming call -->
+    <string name="slide_to_answer_hint">جواب</string>
+    <!-- Incoming call hint shown on tab (must be kept very short): decline incoming call -->
+    <string name="slide_to_decline_hint">رد</string>
+
+
+</resources>
