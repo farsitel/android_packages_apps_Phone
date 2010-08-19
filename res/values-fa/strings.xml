@@ -369,7 +369,7 @@
     <!-- Available networks screen, toast when an error is encountered when searching for networks -->
     <string name="network_query_error">در هنگام جستجوی شبکه‌های اشکالی رخ داد.</string>
     <!-- Available networks screen, toast when registering on a specific network -->
-    <string name="register_on_network">در حال ثبت در <xliff:g id="network">%s</xliff:g>\u2026</string>
+    <string name="register_on_network">در حال ثبت در <xliff:g id="network">%Ls</xliff:g>\u2026</string>
     <!-- Available networks screen, toast when SIM card isn't allowed on a network -->
     <string name="not_allowed">سیم‌کارت شما اجازهٔ اتصال به این شبکه را نمی‌دهد.</string>
     <!-- Available networks screen, toast when registered on a specific network -->
@@ -764,7 +764,7 @@
     <string name="doneButton">اتمام</string>
 
     <!-- In-call screen: status label for a conference call -->
-    <string name="caller_manage_header">تماس کنفرانسی <xliff:g id="conf_call_time">%s</xliff:g></string>
+    <string name="caller_manage_header">تماس کنفرانسی <xliff:g id="conf_call_time">%Ls</xliff:g></string>
     <!-- In-call screen: Button label on "Manage conference" panel -->
     <string name="caller_manage_manage_done_text">بازگشت به تماس</string>
 
@@ -811,23 +811,23 @@
     <!-- Missed call notification label, used when there are two or more missed calls -->
     <string name="notification_missedCallsTitle">تماس‌های از دست‌رفته</string>
     <!-- Missed call notification message used when there are multiple missed calls -->
-    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> تماس از دست‌رفته</string>
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%Ls</xliff:g> تماس از دست‌رفته</string>
     <!-- Missed call notification message used for a single missed call, including
          the caller-id info from the missed call -->
-    <string name="notification_missedCallTicker">تماس از دست‌رفته از <xliff:g id="missed_call_from">%s</xliff:g></string>
+    <string name="notification_missedCallTicker">تماس از دست‌رفته از <xliff:g id="missed_call_from">%Ls</xliff:g></string>
     <!-- The "label" of the in-call Notification for an ongoing call, used
          as the format string for a Chronometer widget. -->
-    <string name="notification_ongoing_call_format">تماس جایری (<xliff:g id="duration">%s</xliff:g>)</string>
+    <string name="notification_ongoing_call_format">تماس جاری (<xliff:g id="duration">%Ls</xliff:g>)</string>
     <!-- The "label" of the in-call Notification for a call that's on hold -->
     <string name="notification_on_hold">در حال مکث</string>
     <!-- Label for the "Voicemail" notification item, when expanded. -->
     <string name="notification_voicemail_title">پست صوتی جدید</string>
     <!-- Label for the expanded "Voicemail" notification item,
          including a count of messages. -->
-    <string name="notification_voicemail_title_count">پست صوتی جدید (<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="notification_voicemail_title_count">پست صوتی جدید (<xliff:g id="count">%Ld</xliff:g>)</string>
     <!-- Message displayed in the "Voicemail" notification item, allowing the user
          to dial the indicated number. -->
-    <string name="notification_voicemail_text_format">تماس با<xliff:g id="voicemail_number">%s</xliff:g></string>
+    <string name="notification_voicemail_text_format">تماس با<xliff:g id="voicemail_number">%Ls</xliff:g></string>
     <!-- Message displayed in the "Voicemail" notification item,
          indicating that there's no voicemail number available -->
     <string name="notification_voicemail_no_vm_number">شمارهٔ صندوق صوتی نامشخص است</string>
@@ -835,7 +835,7 @@
     <string name="notification_network_selection_title">بدون سرویس</string>
     <!-- Label for the expanded "No service" notification item, including the
          operator name set by user -->
-    <string name="notification_network_selection_text">شبکهٔ انتخاب‌شده (<xliff:g id="operator_name">%s</xliff:g>) خارج از دسترس</string>
+    <string name="notification_network_selection_text">شبکهٔ انتخاب‌شده (<xliff:g id="operator_name">%Ls</xliff:g>) خارج از دسترس</string>
 
     <!-- In-call screen: call failure message displayed in an error dialog -->
     <string name="incall_error_power_off">برای گرفتن تماس، ابتدا گوشی را از حالت هواپیما خارج کنید.</string>
@@ -873,7 +873,7 @@
 
     <!-- Dialer text on Emergency Dialer -->
     <!-- Emergency dialer: message displayed in an error dialog -->
-    <string name="dial_emergency_error">تماس برقرار نشد، <xliff:g id="non_emergency_number">%s</xliff:g> یک شمارهٔ اضطراری نیست!</string>
+    <string name="dial_emergency_error">تماس برقرار نشد، <xliff:g id="non_emergency_number">%Ls</xliff:g> یک شمارهٔ اضطراری نیست!</string>
     <!-- Emergency dialer: message displayed in an error dialog -->
     <string name="dial_emergency_empty_error">تماس برقرار نشد، لطا یک شمارهٔ اضطراری وارد کنید!</string>
 
@@ -1015,23 +1015,23 @@
     <string name="phone_in_ecm_call_notification_text">اتصال داده غیرفعال شد</string>
     <plurals name="phone_in_ecm_notification_time">
         <!-- number of minutes is one -->
-        <item quantity="one">هیچ اتصال داده‌ای به مدت <xliff:g id="count">%s</xliff:g> دقیقه موجود نیست</item>
+        <item quantity="one">هیچ اتصال داده‌ای به مدت <xliff:g id="count">%Ls</xliff:g> دقیقه موجود نیست</item>
         <!-- number of minutes is not equal to one -->
-        <item quantity="other">هیچ اتصال داده‌ای به مدت <xliff:g id="count">%s</xliff:g> دقیقه موجود نیست</item>
+        <item quantity="other">هیچ اتصال داده‌ای به مدت <xliff:g id="count">%Ls</xliff:g> دقیقه موجود نیست</item>
     </plurals>
     <!-- ECM: Dialog box message for exiting from the notifications screen -->
     <plurals name="alert_dialog_exit_ecm">
         <!-- number of minutes is one -->
-        <item quantity="one">گوشی به مدت <xliff:g id="count">%s</xliff:g> دقیقه در حالت تماس اضطراری است. که در این حالت هیچ برنامه‌ای که نیازمند اینترنت از طریق سیم‌کارت است، نمی‌تواند فعالیت کند. آیا می‌خواهید همین حالا خارج شوید؟</item>
+        <item quantity="one">گوشی به مدت <xliff:g id="count">%Ls</xliff:g> دقیقه در حالت تماس اضطراری است. که در این حالت هیچ برنامه‌ای که نیازمند اینترنت از طریق سیم‌کارت است، نمی‌تواند فعالیت کند. آیا می‌خواهید همین حالا خارج شوید؟</item>
         <!-- number of minutes is not equal to one -->
-        <item quantity="other">گوشی به مدت <xliff:g id="count">%s</xliff:g> دقیقه در حالت تماس اضطراری است. که در این حالت هیچ برنامه‌ای که نیازمند اینترنت از طریق سیم‌کارت است، نمی‌تواند فعالیت کند. آیا می‌خواهید همین حالا خارج شوید؟</item>
+        <item quantity="other">گوشی به مدت <xliff:g id="count">%Ls</xliff:g> دقیقه در حالت تماس اضطراری است. که در این حالت هیچ برنامه‌ای که نیازمند اینترنت از طریق سیم‌کارت است، نمی‌تواند فعالیت کند. آیا می‌خواهید همین حالا خارج شوید؟</item>
     </plurals>
     <!-- ECM: Dialog box message for exiting from any other app -->
     <plurals name="alert_dialog_not_avaialble_in_ecm">
         <!-- number of minutes is one -->
-        <item quantity="one">عمل موردنظر در حالت تماس اضطراری امکان‌پذیر نیست. گوشی به مدت <xliff:g id="count">%s</xliff:g> دقیقه در این حالت خواهد بود. آیا می‌خواهید همین الان از این حالت خارج شوید؟</item>
+        <item quantity="one">عمل موردنظر در حالت تماس اضطراری امکان‌پذیر نیست. گوشی به مدت <xliff:g id="count">%Ls</xliff:g> دقیقه در این حالت خواهد بود. آیا می‌خواهید همین الان از این حالت خارج شوید؟</item>
         <!-- number of minutes is not equal to one -->
-        <item quantity="other">عمل موردنظر در حالت تماس اضطراری امکان‌پذیر نیست. گوشی به مدت <xliff:g id="count">%s</xliff:g> دقیقه در این حالت خواهد بود. آیا می‌خواهید همین الان از این حالت خارج شوید؟</item>
+        <item quantity="other">عمل موردنظر در حالت تماس اضطراری امکان‌پذیر نیست. گوشی به مدت <xliff:g id="count">%Ls</xliff:g> دقیقه در این حالت خواهد بود. آیا می‌خواهید همین الان از این حالت خارج شوید؟</item>
     </plurals>
     <!-- ECM: Dialog box message while in emergency call -->
     <string name="alert_dialog_in_ecm_call">عمل موردنظر هنگامی که در حالت تماس اضطرای هستید، امکان‌پذیر نیست</string>
@@ -1052,7 +1052,7 @@
     <string name="voicemail_provider">سرویس صندوق صوتی</string>
 
     <!-- Prefix on the voicemail settings preference. The full string will be Settings for <provider name> -->
-    <string name="voicemail_settings_for">تنظیمات برای <xliff:g id="provider_name">%s</xliff:g></string>
+    <string name="voicemail_settings_for">تنظیمات برای <xliff:g id="provider_name">%Ls</xliff:g></string>
 
     <!-- Title displayed above settings coming after voicemail in the call features screen -->
     <string name="other_settings">تنظیمات دیگر تماس</string>
