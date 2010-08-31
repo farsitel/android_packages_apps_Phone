@@ -38,6 +38,7 @@ import android.os.Message;
 import android.os.RemoteException;
 import android.os.SystemProperties;
 import android.telephony.PhoneNumberUtils;
+import android.text.format.Jalali;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -1469,7 +1470,7 @@ public class PhoneUtils {
                 } else {
                     CallerInfo newCi = getCallerInfo(null, conn);
                     if (newCi != null) {
-                        newCi.phoneNumber = ci.phoneNumber; // To get formatted phone number
+                        newCi.phoneNumber = Jalali.replacePersianDigits(ci.phoneNumber); // To get formatted phone number
                         ci = newCi;
                     }
                 }
