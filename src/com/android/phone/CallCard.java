@@ -1095,7 +1095,7 @@ public class CallCard extends FrameLayout
         mManageConferencePhotoButton.setVisibility(View.INVISIBLE);
 
         if (displayNumber != null && !call.isGeneric()) {
-            mPhoneNumber.setText(displayNumber);
+            mPhoneNumber.setText(String.format("%Ls", displayNumber));
             mPhoneNumber.setTextColor(mTextColorDefaultSecondary);
             mPhoneNumber.setVisibility(View.VISIBLE);
         } else {

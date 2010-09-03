@@ -392,7 +392,7 @@ public class NotificationMgr implements CallerInfoAsyncQuery.OnQueryCompleteList
         if (name != null && TextUtils.isGraphic(name)) {
             callName = name;
         } else if (!TextUtils.isEmpty(number)){
-            callName = number;
+            callName = String.format("%Ls", PhoneNumberUtils.formatNumber(number));
         } else {
             // use "unknown" if the caller is unidentifiable.
             callName = mContext.getString(R.string.unknown);

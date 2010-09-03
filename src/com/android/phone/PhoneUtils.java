@@ -1491,8 +1491,9 @@ public class PhoneUtils {
             if (TextUtils.isEmpty(ci.name)) {
                 // Perform any modifications for special CNAP cases to
                 // the phone number being displayed, if applicable.
-                compactName = modifyForSpecialCnapCases(context, ci, ci.phoneNumber,
-                                                        ci.numberPresentation);
+                compactName = String.format("%Ls", 
+                                modifyForSpecialCnapCases(context, ci, ci.phoneNumber,
+                                                        ci.numberPresentation));
             } else {
                 // Don't call modifyForSpecialCnapCases on regular name. See b/2160795.
                 compactName = ci.name;

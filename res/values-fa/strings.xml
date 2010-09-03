@@ -811,10 +811,10 @@
     <!-- Missed call notification label, used when there are two or more missed calls -->
     <string name="notification_missedCallsTitle">تماس‌های از دست‌رفته</string>
     <!-- Missed call notification message used when there are multiple missed calls -->
-    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%Ls</xliff:g> تماس از دست‌رفته</string>
+    <string name="notification_missedCallsMsg">\u200f<xliff:g id="num_missed_calls">%Ls</xliff:g> تماس از دست‌رفته</string>
     <!-- Missed call notification message used for a single missed call, including
          the caller-id info from the missed call -->
-    <string name="notification_missedCallTicker">تماس از دست‌رفته از <xliff:g id="missed_call_from">%Ls</xliff:g></string>
+    <string name="notification_missedCallTicker">تماس از دست‌رفته از \u200e<xliff:g id="missed_call_from">%Ls</xliff:g></string>
     <!-- The "label" of the in-call Notification for an ongoing call, used
          as the format string for a Chronometer widget. -->
     <string name="notification_ongoing_call_format">تماس جاری (<xliff:g id="duration">%Ls</xliff:g>)</string>
@@ -827,7 +827,7 @@
     <string name="notification_voicemail_title_count">پست صوتی جدید (<xliff:g id="count">%Ld</xliff:g>)</string>
     <!-- Message displayed in the "Voicemail" notification item, allowing the user
          to dial the indicated number. -->
-    <string name="notification_voicemail_text_format">تماس با<xliff:g id="voicemail_number">%Ls</xliff:g></string>
+    <string name="notification_voicemail_text_format">تماس با \u200e<xliff:g id="voicemail_number">%Ls</xliff:g></string>
     <!-- Message displayed in the "Voicemail" notification item,
          indicating that there's no voicemail number available -->
     <string name="notification_voicemail_no_vm_number">شمارهٔ صندوق صوتی نامشخص است</string>
@@ -873,7 +873,7 @@
 
     <!-- Dialer text on Emergency Dialer -->
     <!-- Emergency dialer: message displayed in an error dialog -->
-    <string name="dial_emergency_error">تماس برقرار نشد، <xliff:g id="non_emergency_number">%Ls</xliff:g> یک شمارهٔ اضطراری نیست!</string>
+    <string name="dial_emergency_error">تماس برقرار نشد، \u200e<xliff:g id="non_emergency_number">%Ls</xliff:g> یک شمارهٔ اضطراری نیست!</string>
     <!-- Emergency dialer: message displayed in an error dialog -->
     <string name="dial_emergency_empty_error">تماس برقرار نشد، لطا یک شمارهٔ اضطراری وارد کنید!</string>
 
