@@ -24,6 +24,7 @@ import android.pim.ContactsAsyncHelper;
 import android.provider.ContactsContract.Contacts;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
+import android.text.format.Jalali;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -1044,7 +1045,7 @@ public class CallCard extends FrameLayout
                     info.name = info.cnapName;
                     displayNumber = info.phoneNumber;
                 } else {
-                    name = info.phoneNumber;
+                    name = Jalali.persianDigitsIfPersian(info.phoneNumber);
                 }
             } else {
                 if (presentation != Connection.PRESENTATION_ALLOWED) {
